@@ -111,4 +111,13 @@ Partial Public Class WebForm1
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lbCerrarSesion As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''Control Panel2_DragPanelExtender.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Panel2_DragPanelExtender As Global.AjaxControlToolkit.DragPanelExtender
 End Class

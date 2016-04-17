@@ -158,3 +158,4 @@ C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 7\Proyectos Visua
 C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 7\Proyectos Visual Studio\HADS-LAB7\PaginaRegistro\PaginaRegistro\obj\Debug\PaginaRegistro.dll
 C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 7\Proyectos Visual Studio\HADS-LAB7\PaginaRegistro\PaginaRegistro\obj\Debug\PaginaRegistro.xml
 C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 7\Proyectos Visual Studio\HADS-LAB7\PaginaRegistro\PaginaRegistro\obj\Debug\PaginaRegistro.pdb
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 7\Proyectos Visual Studio\HADS-LAB7\PaginaRegistro\PaginaRegistro\bin\AjaxControlToolkit.dll

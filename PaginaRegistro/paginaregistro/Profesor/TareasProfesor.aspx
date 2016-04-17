@@ -2,6 +2,8 @@
 
 <%@ Register src="CabececeraProfesor.ascx" tagname="CabececeraProfesor" tagprefix="uc1" %>
 
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15,7 +17,7 @@
     <form id="form1" runat="server">
     <div style="height: 643px; width: 1306px;">
     
-        <asp:Panel ID="Panel2" runat="server" Height="530px" style="margin-top: 0px" Width="382px">
+        <asp:Panel ID="Panel2" runat="server" Height="500px" style="margin-top: 0px; margin-right: 0px;" Width="550px" BorderColor="#3366CC" BorderWidth="2px">
             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                 <ContentTemplate>
                     <strong>Seleccionar Asignatura:</strong><br />
@@ -26,7 +28,7 @@
                             <asp:SessionParameter DefaultValue="" Name="email" SessionField="email" />
                         </SelectParameters>
                     </asp:SqlDataSource>
-                    <asp:Button ID="btnInsertar" runat="server" style="text-align: left; z-index: 1; left: 834px; top: 98px; position: absolute;" Text="Insertar Nueva Tarea" Width="250px" />
+                    <asp:Button ID="btnInsertar" runat="server" style="text-align: left; z-index: 1; left: 825px; top: 69px; position: absolute;" Text="Insertar Nueva Tarea" Width="250px" />
                     <br />
                     <asp:ScriptManager ID="ScriptManager1" runat="server">
                     </asp:ScriptManager>
@@ -63,10 +65,11 @@
                             <asp:Parameter Name="Codigo" />
                         </UpdateParameters>
                     </asp:SqlDataSource>
-                    <asp:LinkButton ID="lbCerrarSesion" runat="server" style="z-index: 1; left: 1131px; top: 98px; position: absolute; height: 19px; width: 133px">CERRAR SESION</asp:LinkButton>
+                    <asp:LinkButton ID="lbCerrarSesion" runat="server" style="z-index: 1; left: 1127px; top: 70px; position: absolute; height: 19px; width: 133px">CERRAR SESION</asp:LinkButton>
                 </ContentTemplate>
             </asp:UpdatePanel>
         </asp:Panel>
+        <ajaxToolkit:DragPanelExtender ID="Panel2_DragPanelExtender" runat="server" BehaviorID="Panel2_DragPanelExtender" DragHandleID="Panel2" TargetControlID="Panel2" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         <br />
